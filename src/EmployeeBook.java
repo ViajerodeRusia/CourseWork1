@@ -93,8 +93,8 @@ public class EmployeeBook {
 
         }
     }
-    public int salaryCosts(int way, int department) {
-        int costs = 0;
+    public double salaryCosts(int way, int department) {
+        double costs = 0;
         switch (way) {
             case 1:
                 for (int i = 0; i < employees.length; i++) {
